@@ -1,0 +1,119 @@
+body{
+    background-color: #f7f7f7;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 60px;
+    padding-top:  20px;
+    margin-bottom: 35px;
+}
+.head{
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 85px;
+}
+.head li{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.title{
+    margin-left: 60px;
+}
+.title h1{
+    color: #0067A5;
+}
+.boxup{
+    height: 310px;
+}
+.videobox{
+    float: right;
+    margin-right: 90px;
+}
+.video{
+    width: 500px;
+    height: 300px;
+}
+.learn{
+    float: left;
+    width: 600px;
+    height: 302px;
+    margin-left: 90px;
+}
+.learns{
+    font-size: 16pt;
+}
+.btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 4%;
+}
+.workbox{
+    width: 97%;
+    height: 500px;
+    margin: 0 auto;
+}
+.work{
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin: 5%;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+
+}
+.imga{
+    width: 300px;
+    height: 200px;
+    font-family: cursive;
+}
+.imga img{
+    width: 100%;
+    height: 100%;
+}
+.imga span{
+    font-size: 14pt;
+    margin: 1%;
+}
+.upfooter{
+    width: 80%;
+    height: 300px;
+    background: -webkit-linear-gradient(#80808050, #cccccc50, #80808050);
+    background: -o-linear-gradient(#80808050, #cccccc50, #80808050);
+    background: -moz-linear-gradient(#80808050, #cccccc50, #80808050);
+    background: linear-gradient(#80808050, #cccccc50, #80808050);
+    margin: 0 auto;
+    text-align: center;
+    font-family: cursive;
+    padding: 2%;
+}
+.down{
+    height: 100px;
+    width: 40%;
+    margin: 0 auto;
+    color: #6d6d6d;
+}
+.down span{
+    font-family: cursive;
+}
+footer{
+    margin-bottom: 35px;
+}

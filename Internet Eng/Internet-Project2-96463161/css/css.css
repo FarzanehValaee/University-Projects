@@ -1,0 +1,27 @@
+.centered_div {
+    position: absolute;
+    top: 12%;
+    left: 30%;
+}
+
+ body {
+    background : url("../image/bg.png");
+    background-repeat : no-repeat; 
+    background-size : cover ;
+    background-position: center;
+    background-attachment: fixed
+    ;
+ }
+
+
+.clock{
+    display: inline;
+    float: right;
+    margin-top: 200px; 
+    margin-right: 100px;
+}
+
+.myclock{
+    width: 100px;
+    height: 20px;
+}

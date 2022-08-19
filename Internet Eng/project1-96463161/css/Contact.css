@@ -1,0 +1,65 @@
+.help{
+    width: 75%;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 3%;
+}
+.help span{
+    margin-top: 2%;
+    font-family: cursive;
+    font-size: 13pt;
+}
+.break{
+    height: 100px;
+}
+.comment{
+    padding-top: 3%;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.spn{
+    margin-top: 10px;
+}
+.inp{
+    width: 80%;
+    height: 40px;
+    border: none;
+    margin: 0 auto;
+    font-size: 19px;
+    border-bottom: 1px solid silver;
+}
+.inp::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+.inp:focus{
+    outline: none;
+}
+.dinp{
+    margin: 5%;
+
+    font-size: 15pt;
+}
+.sub{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    width: 100%;
+}
+.unde{
+    margin: 1%;
+    font-size: 10pt;
+    color: #656565;
+}

@@ -1,0 +1,70 @@
+.all{
+    width: 80%;
+    margin: 0 auto;
+}
+.myimg{
+    width: 100%;
+    height: 500px;
+
+}
+.myimg img{
+    width: 100%;
+    height: 100%;
+}
+.team{
+    text-align: center;
+    width: 96%;
+    height: 200px;
+
+    padding: 2%;
+    background-color: white;
+}
+.develop{
+    width: 100%;
+    height: 600px;
+}
+.developer{
+    float: left;
+    width: 33.33%;
+    height: 300px;
+    position: relative;
+}
+.developer img{
+    width: 100%;
+    height: 100%
+}
+.name{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    background-color: red;
+}
+.tname{
+    width: 26.5%;
+    height: 11%;
+    margin-top: 17%;
+    background-color: #56565699;
+    position: absolute;
+    text-align: center;
+}
+#t1{
+    margin-left: 26.5%;
+}
+#t2{
+    margin-left: 53%;
+}
+#t3{
+    margin-top: 39.2%
+}
+#t4{
+    margin-top: 39.2%;
+    margin-left: 26.5%;
+}
+#t5{
+    margin-top: 39.2%;
+    margin-left: 53%;
+}
+.sp{
+    font-family: fantasy;
+    font-size: 25pt;
+}

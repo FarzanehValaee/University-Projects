@@ -1,0 +1,53 @@
+.cbox{
+    width: 85%;
+    margin: 0 auto;
+    height: 350px;
+}
+.device{
+    float: left;
+    width: 25%;
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    margin: 4.1%;
+    text-align: center;
+    font-family: cursive;
+}
+.device img{
+    width: 100%;
+    height: 90%;
+}
+.team{
+    text-align: center;
+    width: 74%;
+    height: 200px;
+    padding: 2%;
+    margin: 0 auto;
+}
+.cours{
+    width: 74%;
+    height: 250px;
+    border-radius: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+}
+.animg{
+    float: left;
+    width: 26%;
+    height: 100%;
+    background-color: red;
+}
+.animg img{
+    width: 100%;
+    height: 100%;
+}
+.dis{
+    font-family: sans-serif;
+    float: left;
+    width: 60%;
+    padding: 2%;
+    height: 90%;
+    margin-left: 2%;
+}

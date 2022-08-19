@@ -1,0 +1,1 @@
+ class MyClass2 {  public boolean function( int input1 , int input2 ) { fo ( input1 = 10 ; this.i < input2; input1 ++ ) { char f = new Object ( ); } }  }  

@@ -1,0 +1,1 @@
+ class myclass { if ( i <= 5 ) { i = 5 ; }  }

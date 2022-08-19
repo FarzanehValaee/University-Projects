@@ -1,0 +1,1 @@
+ class myclass { public int func ( int input  { float output = new Object (); while ( i < 10 ) { if ( i <= 5 ) { i = 5 ;  }  } return this.input; } }

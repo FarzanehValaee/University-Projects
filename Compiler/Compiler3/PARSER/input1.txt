@@ -1,0 +1,1 @@
+ class MyClass {  int x;  public static void main() { for ( this.i = 8 ; this.i < 12 ; k ++ ) { } }  }  

@@ -1,0 +1,1 @@
+ class MyClass2 {  public static boolean function( int input1 , int input2 , float input3) { for ( input1 = input1 ; this.iinput3 < input2; input1 ++ ) { char f = new Object ( ); } }  }  

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.2.0/dist/jBox.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.2.0/dist/jBox.all.min.css" rel="stylesheet">
+
+
+    <title>Enrollment</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="javascript/chosen/chosen.min.css">
+    <link rel="stylesheet" type="text/css" href="javascript/icheck/skins/all.css">
+    <link rel="stylesheet" type="text/css" href="javascript/FlipClock-master/compiled/flipclock.css">
+    <link rel="stylesheet" type="text/css" href="javascript/sweetalert-master/dist/sweetalert.css">
+    
+</head>
+
+<body>
+
+    <div>
+        <center><h1><font size="60 ">welcome</font></h1></center>
+        <div class="clock">
+            <div class="myclock"></div>
+        </div>
+
+        <form name="enroll-form" class="w3-display w3-large centered_div" onsubmit="return checkInp()" method="post">
+
+            <p1>name and family name:</p1><br>
+            <input type="text" placeholder="First name" id="name" class="w3-margin tooltip"  title="Plesae Enter Your First Name.">
+            <input type="text" placeholder="Last name" id="familyname" class="w3-margin tooltip"  title="Plesae Enter Your Last Name.">
+            <div id ="namecontrol" class="w3-text-red"></div>
+            <br>
+
+            <p1>user name:</p1><br>
+            <input type="text" placeholder="Username" id="username" class="w3-margin username tooltip"  title="You Can Use Letters, Numbers, Dots.">
+            <div id ="usernamecontrol" class="w3-text-red"></div>
+            <br>
+
+            <p1>password:</p1><br>
+            <input type="password" id="password" class="w3-margin username tooltip"  title="Use at least 8 Characters. Don't <br> Use Password From Another Site. Or Somethings too Obvious.">
+            <div id ="passcontrol" class="w3-text-red"></div>
+            <br>
+
+            <p1>enter password again:</p1><br>
+            <input type="password" placeholder="" id="passcheck" class="w3-margin tooltip"  title="Please Enter Your Confirm Password.">
+            <div id ="repasscontrol" class="w3-text-red"></div>
+            <br>
+
+            <input type="text" placeholder="Year" id="year" class="w3-margin" onkeypress="check_number(event)" onfocus="focus(4)" > /
+            <select class="js-example-basic-single" id="month">
+                <option value="JAN">January</option>
+                <option value="FEB">February</option>
+                <option value="MAR">March</option>
+                <option value="APR">April</option>
+                <option value="MAY">May</option>
+                <option value="JUN">June</option>
+                <option value="JUL">July</option>
+                <option value="AUG">August</option>
+                <option value="SEP">September</option>
+                <option value="OCT">October</option>
+                <option value="NOV">November</option>
+                <option value="DEC">December</option>
+            </select>/
+            <input type="text" placeholder="Day" id="day" class="w3-margin" onkeypress="phonenum_check(event)" onfocus="focus(4)">
+            <div id ="datecontrol" class="w3-text-red"></div>
+            <br>
+
+            <p1>gender: </p1>
+            <select class="js-example-basic-single w3-margin" id="gender">
+                <option value="man">male</option>
+                <option value="woman">female</option>
+            </select>
+            <br>
+
+
+            <p1>phone numbr: </p1>
+            <input type="text" placeholder="+98" name= "PhoneNumber" id="PhoneNumber" class="w3-margin" onsubmit="return checkInp()" onkeypress="chech_number(event)" onfocus="focus(5)">
+            <div id ="telcontrol" class="w3-text-red"></div>
+            <br>
+
+            <input class="checked" id= "c" name="checked" type="checkbox" unchecked>
+            <span > I accept all</span>
+            <center>
+                <input type="button" class="w3-button w3-blue-grey w3-round-xlarge  submit" value="Enroll me" id="enroll"  onclick="confirm(event) " ></input>
+            </center>
+        </form>
+   </div>
+    <script src="javascript/jquery-3.2.1.min.js"></script>
+    <script src="javascript/chosen/chosen.jquery.js"></script>
+    <script src="javascript/protip/protip.min.js"></script>
+    <script src="javascript/icheck/icheck.js"></script>
+    <script src="javascript/FlipClock-master/compiled/flipclock.min.js"></script>
+    <script src="javascript/sweetalert-master/dist/sweetalert.min.js"></script>
+    <script src="javascript/main.js"></script>
+</body >
+
+<script>
+    new jBox('Tooltip', {
+        attach: '.tooltip',
+        trigger: 'click',
+        animation:{open: 'flip', close: 'move:right'},
+        position:{
+            x:'right',
+            y:'top'
+        },
+        color: 'green',
+        closeOnClick: 'body',
+    });
+</script>
+
+
+
+</html>
